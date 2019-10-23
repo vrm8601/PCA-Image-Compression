@@ -6,7 +6,7 @@ clc;
 
 % Start of PCA code,
 
-Data = imread('/Users/vicmullin/Desktop/img.png');   
+Data = imread('/Users/vicmullin/Desktop/img.png');  %Will need to change path depending on location of image on local computer
 Data_gray = rgb2gray(Data);      
 Data_grayD = im2double(Data_gray);    
 figure, 
